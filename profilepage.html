@@ -8,50 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="title">
-    <h1 >Profile</h1>
-    <ul>
-        <li>home</li>
-        <li>my profile</li>
-        <li>find connections</li>
-        <li><button>Sing Out</button></li>
-    </ul>
+    <div id="profile" class="flex align-center">
+    <div class="move"><h1 >Profile <a href="">Home</a> <a href="">My Profile</a> <a href="">Find connections</a> <button>Sing Out</button> </h1></div>
+    
     </div>
-        <div class="row">
-            <h1>Jane Doe <img src="icon.png" alt="icon"></h1>
-            <p><img src="map-marker.png" alt="map-marker">Developer| Engineer| Problem Solver Master of shadows and the Internet1
-            </p>
-        
-        <div class="row1">
-            <h>Connection Requests</h>
-            <p><img src="icon.png" alt="icon">Todd E</p>
-            <p><img src="icon.png" alt="icon">Phil K</p>
-        </div>
-        <div class="row2">
+    <div class="container">
+        <div class="Jane" >
+            <img src="icon.png" alt="icon" class="icon">Jane Doe<img>
+            <img src="map-marker.png" alt="map-marker" class="map">Seattle<img>
+            <p>Engineer| Problem Solver Master of shadows and the
+            Internet!></p>
+        </div> 
+        <div class="Education">
             <h5>Education</h5>
-            <p> Coding Dojo-Full Stack Bootcamp
+            <p> <b>Coding Dojo-Full Stack Bootcamp</b>
                 Dec 2019-Mar 2020
                 Triple black belt in Phython, MERN, and C#..
             </p>
         </div>
-        <div class="row3">
-            <h5>Your connections</h5>
-            <p><img src="./img/icon.png" alt="icon">Adrien D</p>
-            <p><img src="icon.png" alt="icon">Anne</p>
-            <p><img src="icon.png" alt="icon">Alayne T</p>
-            <p><img src="icon.png" alt="icon">Arry</p>
-            <advertisement><a href=""></a>View More</advertisement>
-
+        <div id="Connection" class="flex-align-top">
+            <h>Connection Requests</h>
+            <p><img src="icon.png" alt="icon1" class="icon1"><b>Todd E</b><img src="accept-circle.png" alt="accept" class="accept"> 
+                <img src="close-circle.png" alt="close" class="close"></p>
+            <p><img src="icon.png" alt="icon1" class="icon1"><b>Phill K</b><img src="accept-circle.png" alt="accept" class="accept"> 
+                <img src="close-circle.png" alt="close" class="close"></p>
         </div>
-        
-
-            <!-- <div class="top-nav1"></div>
-                <div .img src="icon.png" alt="icon"></div>
-            <div class="top-nav2">1/3</div>
+        <div id="Your" class="flex-align-top">
+            <h5>Your Connections</h5>
+            <p><img src="icon.png" alt="icon1" class="icon1"><b>Adrien D</b></p>
+            <p><img src="icon.png" alt="icon1" class="icon1"><b>Anne J</b></p>
+            <p><img src="icon.png" alt="icon1" class="icon1"><b>Alayne T</b></p>
+            <p><img src="icon.png" alt="icon1" class="icon1"><b>Arry Y</b></p>
+            <advertisement><a href="">View More</a></advertisement>
         </div>
-        <div>
-            <div class="bottom-nav1">1/4</div>
-            <div class="bottom-nav2">3/4</div></div>
-        </div> -->
-</body>
+        </div>
+    </div>
 </html>
